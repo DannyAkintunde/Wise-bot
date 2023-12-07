@@ -5,13 +5,13 @@ import fs from "fs";
 import fetch from "node-fetch";
 import axios from "axios";
 
-global.owner = [["2348098309204", "Danny", true], [""]]; //Number of owners
+global.owner = [["2348098309204", "Danny", true], ["2348110277606","WISE-BOT",true],["2348163618649","Wiselex",true],]; //Number of owners
 
-global.pairingNumber = "2348098309204"; //put your bot number here
+global.pairingNumber = "2348110277606"; //put your bot number here
 
-global.mods = ["2348098309204", "32460248586"];
-global.prems = ["2348098309204", "32460248586", "919398758484"];
-global.allowed = ["2348098309204", "32460248586", "19152999993"];
+global.mods = ["2348110277606", "32460248586"];
+global.prems = ["2348110277606", "32460248586", "919398758484"];
+global.allowed = ["2348110277606", "32460248586", "19152999993"];
 global.keysZens = ["c2459db922", "37CC845916", "6fb0eff124"];
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())];
 global.keysxteammm = [
@@ -55,9 +55,9 @@ global.APIKeys = {
 };
 
 // Sticker WM
-global.botname = "ᴛʜᴇ kogi-ʙᴏᴛ";
+global.botname = "ᴛʜᴇ wise-ʙᴏᴛ";
 global.premium = "true";
-global.packname = "KOGI┃ᴮᴼᵀ";
+global.packname = "WISE┃ᴮᴼᵀ";
 global.author = "@Danny";
 global.menuvid = "https://telegra.ph/file/085c4b1068f0f4f8db970.mp4";
 global.igfg = "";
@@ -67,7 +67,7 @@ global.fgyt = "";
 global.fgpyp = "";
 global.fglog = "https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg";
 global.thumb = fs.readFileSync("./Assets/Gurulogo.jpg");
-global.ownernum = "2348098309204";
+global.ownernum = "2348110277606";
 
 global.wait = "*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*";
 global.rwait = "⌛";
